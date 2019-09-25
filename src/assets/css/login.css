@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/*
+    LOGIN+REG.CSS
+    ==========================================
+    DUE TO MAJOR DIFFERENCES IN STYLE BETWEEN THESE PAGES
+    AND ALL OTHER PAGES ON THE WEBSITE, THE 'login.php' and
+    'register.php' PAGES ARE STYLED INDEPENDENTLY FROM THE OTHERS
+*/
+html, body {
+    min-height: 100vh;
+    max-height: 100%;
+    height: auto;
+}
+.loginPage {
+    width: 360px;
+    margin: auto;
+    vertical-align: middle;
+    top: 20%;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+.form {
+    position: relative;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 10px;
+    padding: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background-color: #43a047;
+}
+.form .message {
+    margin: 15px 0 0;
+    font-family: "Roboto", sans-serif;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4caf50;
+    text-decoration: none;
+}
+h2 {
+    font-size: 20px;
+    font-family: 'Share Tech Mono', monospace;/*"Roboto", sans-serif;*/
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.errors p {
+    color: red !important;
+    font-size: 20px !important;
+    font-family: "Roboto", sans-serif !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+a:hover {
+    text-decoration: none;
+}
+.login_page {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-height: 740px)
+{
+    .login_page {
+        margin-bottom: 60px;
+    }
+    .loginPage {
+        margin-bottom: 25px;
+    }
+    .footer {
+        bottom: 0;
+    }
+}
+
+@media screen and (min-height: 620px)
+{
+    .footer {
+        bottom: 0;
+    }
+}

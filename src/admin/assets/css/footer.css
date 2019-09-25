@@ -1,0 +1,27 @@
+body {
+    position: relative;
+    margin: 0;
+}
+.footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #03346B;
+    right: 0;
+    left: 0;
+    position: absolute;
+    border-top: #0D4280 solid 2px;
+}
+.footer p {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+.copyright {
+    padding-top: 10px;
+}
+.admin-small .footer {
+    bottom: 0;
+}
+.admin-small {
+    min-height: 100vh;
+}

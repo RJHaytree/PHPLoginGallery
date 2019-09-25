@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html, body, .wrapper {
+    background-color: #0d4280;
+}
+.intro h1 {
+    padding-bottom: 10px !important;
+}
+.content h1 {
+    color: #0d4280;
+    margin: 0 auto;
+    text-align: center;
+}
+.error-table {
+    background-color: #ffffff;
+    max-width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.content {
+    max-width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding-top: 20px;
+    margin: 0 auto;
+}
+form {
+    font-size: 15px;
+    width: 95%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
+}
+form input.file-upload {
+    max-width: 95%;
+}
+.image-form {
+    margin: 0 auto;
+    width: 80%;
+}
+.image-upload {
+    max-width: 60%;
+    margin-top: 20px;
+}
+input[type=file] {
+    display: inline-block;
+    width: 84%;
+}
+.success p {
+    padding-top: 20px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: darkgreen;
+    text-align: center;
+}
+.errors p {
+    padding-top: 20px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: darkred;
+    text-align: center;
+}

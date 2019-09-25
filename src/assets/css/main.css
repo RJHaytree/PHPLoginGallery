@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0d4280;
+}
+.wrapper {
+    background-color: #0d4280;
+    min-height: calc(100% - 100px);
+}
+.content .intro p {
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.intro, .intro h2, .intro p, .intro ol li {
+    background-color: #BBE1F9;
+    color: #0d4280;
+}
+.intro h2 {
+    padding-bottom: 10px;
+}
+hr {
+    width: 60%;
+    color: #ffffff;
+}
+h1, h2, h3, p, li {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.centre {
+    text-align: center;
+    list-style-position: inside;
+}
+.section {
+    margin: 0 auto;
+    width: 90%;
+    min-height: 200px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 5px;
+    padding-bottom: 10px;
+}
+.image-gallery {
+    margin-bottom: 15px;
+    background-color: #0B386E;
+    min-height: 400px;
+}
+.gallery-images img {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    height: 33.3%;
+}
+.intro ol {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.intro ol li {
+    width: auto;
+}
+.upload-inst {
+    margin: 0 auto;
+}
